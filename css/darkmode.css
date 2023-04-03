@@ -1,0 +1,21 @@
+/* dark mode classes */
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+button {
+    display: flex;
+    justify-content: flex-end;
+    background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+
+  }

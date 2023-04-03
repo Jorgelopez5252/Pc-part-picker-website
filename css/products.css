@@ -1,0 +1,84 @@
+/* products */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+  }
+  
+  .products p {
+    padding: 5px;
+  }
+  
+  .product {
+    border: solid red 2px;
+    width: 320px;
+    height: 320px;
+    margin: 15px;
+    padding: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 1px 5px #000;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .one {
+    background-image: url("https://cdn.elio-systems.io/media/image/e8/59/d3/a2843d190f774ff588aed77c502c1b73_600x600.jpg");
+  }
+  
+  .two {
+    background-image: url("https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71j1K-hQAhL.jpg");
+  }
+  
+  .three {
+    background-image: url("https://dlcdnwebimgs.asus.com/gain/36e07492-4808-4066-8f4a-0b454ca0a1ef/");
+  }
+  
+  .four {
+    background-image: url("https://www.howtogeek.com/wp-content/uploads/2020/10/CorsairDDR4RAM.png?height=200p&trim=2,2,2,2");
+  }
+  
+  .five {
+    background-image: url("https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61FHL0C8qXL.jpg");
+  }
+  
+  .six {
+    background-image: url("https://images.acer.com/is/image/acer/vt0_vt240y_wp_01-11?$Product-Cards-XL$");
+  }
+  
+  .seven {
+    background-image: url("https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61cxJ6VlkoL.jpg");
+  }
+  
+  .eight {
+    background-image: url("https://i.dell.com/is/image/DellContent//content/dam/images/products/electronics-and-accessories/dell/keyboards/aw410k/aw410k-ckb-rf-gy.psd?fmt=pjpg&pscan=auto&scl=1&hei=402&wid=557&qlt=100,1&resMode=sharp2&size=557,402&chrss=full");
+  }
+  .nine {
+    background-image: url("https://i5.walmartimages.com/asr/eb30c61b-cd9a-43df-a2cc-2d8fcc55ba82.694abdb12e6bbf1ca0fdf0f5be1fed8e.jpeg");
+  }
+  .ten {
+    background-image: url("https://assets-prd.ignimgs.com/2021/06/21/71zcdwrswdl-ac-sl1500-1624290926203.jpg");
+  }
+  .eleven {
+    background-image: url("https://i5.walmartimages.com/asr/096b1dca-a0e7-4de1-8e40-3fa06ae11793.957a95e71bd9bcb2d7e7bc73d882b73e.jpeg");
+  }
+  .twelve {
+    background-image: url("https://www.elgato.com/sites/default/files/2022-01/sdmk2.png");
+  }
+  
+  .banner {
+    font-family: "Courier New", Courier, monospace;
+    position: relative;
+    top: 240px;
+    background-color: red;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .banner:hover {
+    background-color: brown;
+  }

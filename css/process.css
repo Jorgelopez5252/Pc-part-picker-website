@@ -1,0 +1,32 @@
+/* our process */
+.process {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#processheader,
+.step h1,
+.step p {
+  text-align: center;
+}
+
+.step {
+  padding: 5px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.step img {
+  justify-content: center;
+  border-radius: 50%;
+}
+
+/* images for process steps */
+.process img {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+}
