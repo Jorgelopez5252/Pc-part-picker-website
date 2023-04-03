@@ -22,10 +22,12 @@ html {
 .image img {
   border-radius: 5%;
   margin-bottom: 10px;
+  /* width: 75%; */
 }
 
 .text {
   text-align: center;
+  /* width: 25%; */
 }
 
 /* header, footer */

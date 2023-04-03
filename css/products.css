@@ -1,9 +1,11 @@
 /* products */
 .products {
     display: flex;
+    flex-basis: 300px;
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
+    width: 90%;
   }
   
   .products p {

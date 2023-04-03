@@ -9,6 +9,7 @@
   }
   
   .review {
+    flex-grow: 1;
     background-color: red;
     color: white;
     font-family: "Courier New", Courier, monospace;
